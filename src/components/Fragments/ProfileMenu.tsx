@@ -37,9 +37,9 @@ const ProfileMenu = (props: ProfileMenuProps) => {
         <DropdownMenuSeparator />
         <DropdownMenuItem>Profil Saya</DropdownMenuItem>
         <DropdownMenuItem>Ubah Ke Premium</DropdownMenuItem>
-        <DropdownMenuItem className="cursor-pointer">
-          <Link to={"/login"}>Keluar</Link>
-        </DropdownMenuItem>
+        <Link to={"/login"}>
+          <DropdownMenuItem className="cursor-pointer">Keluar</DropdownMenuItem>
+        </Link>
       </DropdownMenuContent>
     </DropdownMenu>
   );

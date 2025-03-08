@@ -33,12 +33,14 @@ const LoginForm = () => {
             Lupa kata sandi?
           </p>
         </div>
-        <Button
-          variant={"outline"}
-          className="w-[258px] md:w-[449px] text-[10px] md:text-[16px] mt-4 md:mt-8"
-        >
-          <Link to={"/"}>Masuk</Link>
-        </Button>
+        <Link to={"/"}>
+          <Button
+            variant={"outline"}
+            className="w-[258px] md:w-[449px] text-[10px] md:text-[16px] mt-4 md:mt-8"
+          >
+            Masuk
+          </Button>
+        </Link>
         <p className="text-center my-1 md:my-2 text-[#9D9EA1] text-[10px] md:text-[14px]">
           Atau
         </p>
