@@ -3,7 +3,7 @@ import ProfileMenu from "./ProfileMenu";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center bg-[#181A1C] w-full py-[19px] md:py-[25px] px-[20px] md:px-[80px] text-white text-[10px] md:text-[18px]">
+    <div className="flex justify-between items-center fixed shadow-md z-50 bg-[#181A1C] w-full py-[19px] md:py-[25px] px-[20px] md:px-[80px] text-white text-[10px] md:text-[18px]">
       <div className="flex flex-row justify-between items-center gap-[12px] md:gap-[80px]">
         <Link to={"/"}>
           <img
@@ -21,7 +21,7 @@ const Navbar = () => {
         <Link to={"#film"}>Film</Link>
         <Link to={"#daftarSaya"}>Daftar Saya</Link>
       </div>
-      <ProfileMenu photo="/images/profile.png" />
+      <ProfileMenu photo="/images/profile.jpg" />
     </div>
   );
 };
